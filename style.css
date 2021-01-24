@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+
+body{
+    color: white;
+    background-color: black;
+}
+
+
+div#clock_frame{
+    width: 100%;
+}
+
+span{
+    display: block;
+    float: right;
+    width: 85%;
+    font-family: 'Oleo Script Swash Caps', cusive;
+}
+
+span#clock_date{
+    text-align: center;
+    font-size: 3em;
+    padding-right: 3em;
+}
+span#webAPI{
+    text-align: center;
+    font-size: 1em;
+    padding-right: 1em;
+}
+
+span#clock_time{
+    font-size: 4em;
+}
