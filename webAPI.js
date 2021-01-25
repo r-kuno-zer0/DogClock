@@ -8,7 +8,7 @@ function GetDog(){
             //JSON形式で受けとりparseする    
             obj = JSON.parse(chunk);
             //受け取ったJSONの中の画像の部分messageを<img>タグで直にhtmlを書き換え
-            document.getElementById("webAPI").innerHTML = "<img src="+ obj.message+"></img>";
+            document.getElementById("webAPI").innerHTML = "<img src="+ obj.message+ " width = "+300+" height = " +300+"></img>";
         });
     res.on('end',()=>{   
         });
