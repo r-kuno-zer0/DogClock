@@ -21,4 +21,6 @@ function clock(){
 
 }
 setInterval(clock, 1000);
+//このままだと、スタートで10待つ必要があるから改良が必要
+//javascriptのコードで一回メソッドを実行するコードを書く
 //参考にしたサイトhttps://qiita.com/ukkz/items/07d69c83be1112f10c29
